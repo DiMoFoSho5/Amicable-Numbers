@@ -1,3 +1,4 @@
+# function for creating a list of proper divisors 
 def get_dvsr_sum_lst(a):
     divisors = []
     sums_list = dict()
@@ -17,6 +18,7 @@ def get_dvsr_sum_lst(a):
     return sums_list
 
 
+# function for determining if two numbers are amicable, based on their sums of divisors
 def get_amicable_numbers(a):
     num_sum = dict()
 
@@ -33,5 +35,5 @@ def get_amicable_numbers(a):
     return num_list
 
 
-# change n, where n = the largest number to be checked for amicability
+# CHANGE n HERE, where n = the largest number to be checked for amicability
 print(get_amicable_numbers(n))
